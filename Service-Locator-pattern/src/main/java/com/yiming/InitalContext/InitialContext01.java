@@ -1,4 +1,4 @@
-package com.yiming.service.InitalContext;
+package com.yiming.InitalContext;
 
 import com.yiming.service.impl.ServiceImpl1;
 import com.yiming.service.impl.ServiceImpl2;

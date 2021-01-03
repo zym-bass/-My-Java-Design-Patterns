@@ -1,8 +1,6 @@
-package com.yiming.service.cache;
+package com.yiming.cache;
 
 import com.yiming.service.Service;
-
-import java.util.AbstractList;
 import java.util.ArrayList;
 import java.util.List;
 

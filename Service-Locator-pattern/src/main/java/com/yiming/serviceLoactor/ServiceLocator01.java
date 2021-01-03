@@ -1,8 +1,8 @@
-package com.yiming.service.serviceLoactor;
+package com.yiming.serviceLoactor;
 
-import com.yiming.service.InitalContext.InitialContext01;
+import com.yiming.InitalContext.InitialContext01;
 import com.yiming.service.Service;
-import com.yiming.service.cache.Cache01;
+import com.yiming.cache.Cache01;
 
 public class ServiceLocator01 {
     private static Cache01 cache;
@@ -11,7 +11,7 @@ public class ServiceLocator01 {
     }
 
     public static Service getService(String jndiName){
-        
+
         Service service = cache.getService(jndiName);
 
         if (service!=null){
