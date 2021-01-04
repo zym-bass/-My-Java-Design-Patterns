@@ -17,7 +17,6 @@ public class ServiceLocator01 {
     //获取Service的实体类，该方法使用了缓存对象和初始化环境对象，
     //当缓存没有时，调用初始化环境，进行初始化，并添加进缓存对象中的容器中
     public static Service getService(String jndiName){
-
         Service service = cache.getService(jndiName);
 
         if (service!=null){
